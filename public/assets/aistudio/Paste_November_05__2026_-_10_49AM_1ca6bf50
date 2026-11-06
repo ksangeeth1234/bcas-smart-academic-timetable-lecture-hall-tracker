@@ -1,0 +1,413 @@
+# BCAS Campus - Academic Staff & Classrooms Directory
+
+> **System Reference Document & AI Prompt Instructions**  
+> **Generated on:** 2026-11-05 05:38:51 (Sri Lanka Time / Asia/Colombo)  
+> **Total Departments:** 11 | **Total Academic Staff:** 94 | **Total Classrooms:** 39
+
+This authoritative reference directory lists all academic departments, designated departmental leaders (**HOD**, **Deputy HOD**, and **Course Coordinators**), permanent internal faculty, visiting lecturers, standard monthly norm hours, and campus teaching facilities / classrooms. Use this document as instructions for scheduling algorithms, system prompt contexts, resource utilization tracking, and external AI pair programming.
+
+---
+
+## Table of Contents
+1. [Institutional Academic Hierarchy & Norm Hours](#1-institutional-academic-hierarchy--norm-hours)
+2. [Departmental Leadership Quick Reference (HOD & Deputy HOD)](#2-departmental-leadership-quick-reference-hod--deputy-hod)
+3. [Department-Wise Academic Staff Directory](#3-department-wise-academic-staff-directory)
+   - 3.1. [Department of Biomedical Science](#biomedical-science)
+   - 3.2. [Department of Business Management](#business-management)
+   - 3.3. [Department of Computing](#computing)
+   - 3.4. [Department of Construction & Built Environment](#construction-built-environment)
+   - 3.5. [Department of Early Childhood Development](#early-childhood-development)
+   - 3.6. [Department of Hotel Management](#hotel-management)
+   - 3.7. [Department of Languages](#languages)
+   - 3.8. [Department of Law](#law)
+   - 3.9. [Department of Nursing](#nursing)
+   - 3.10. [Department of Psychology](#psychology)
+   - 3.11. [Unassigned / No Department](#no-department-unassigned)
+4. [Classrooms & Lecture Facilities Directory](#4-classrooms--lecture-facilities-directory)
+   - 4.1. [Categorized Campus Facilities](#41-categorized-campus-facilities)
+   - 4.2. [Complete Master Classrooms Table](#42-complete-master-classrooms-table)
+
+---
+
+## 1. Institutional Academic Hierarchy & Norm Hours
+
+| Hierarchy Level | Role / Designation | Standard Norm Hours | Operational Responsibility |
+| :---: | :--- | :---: | :--- |
+| **Rank 1** | **👑 Head of Department (HOD)** | **48.0 hrs/mo** | Department executive leadership, syllabus governance, and academic administration. |
+| **Rank 2** | **⭐ Deputy HOD** | **48.0 hrs/mo** | Departmental vice-chair supporting operations, student affairs, and scheduling oversight. |
+| **Rank 3** | **🎓 Professor / Chair** | **48.0 hrs/mo** | Senior professorial faculty overseeing advanced research and degree programmes. |
+| **Rank 4** | **🎖️ Senior Lecturer Cum Coordinator** | **64.0 hrs/mo** | Senior academic staff leading course/batch coordination alongside core lecturing. |
+| **Rank 5** | **🎖️ Lecturer Cum Coordinator** | **64.0 hrs/mo** | Full-time lecturer managing batch scheduling, module delivery, and student mentoring. |
+| **Rank 6** | **🎖️ Assistant Lecturer Cum Coordinator** | **64.0 hrs/mo** | Assistant lecturer with additional programme coordination assignments. |
+| **Rank 7** | **📘 Internal Lecturer** | **80.0 hrs/mo** | Permanent core teaching faculty dedicated full-time to module lecturing. |
+| **Rank 8** | **📗 Internal Assistant Lecturer** | **80.0 hrs/mo** | Permanent junior faculty supporting tutorials, practicals, and module tutoring. |
+| **Rank 9** | **✈️ Visiting Lecturer (Faculty)** | *Flexible / Module Contract* | External industry professionals contracted on a per-session or per-module basis. |
+
+---
+
+## 2. Departmental Leadership Quick Reference (HOD & Deputy HOD)
+
+| # | Department Name | Head of Department (HOD) | Deputy HOD | Total Staff | Internal | Visiting |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: |
+| 1 | **Biomedical Science** | *None assigned / Acting* | ⭐ **Dr. Dulani (`LEC0028`)** | 3 | 3 | 0 |
+| 2 | **Business Management** | 👑 **Dr. Chethana (`LEC0104`)** | *None assigned* | 17 | 7 | 10 |
+| 3 | **Computing** | 👑 **Mr. Anis (`LEC0006`)** | ⭐ **Mr. Ravindu (`LEC0002`), Mr. S. Moulana (`LEC0069`)** | 18 | 17 | 1 |
+| 4 | **Construction & Built Environment** | *None assigned / Acting* | ⭐ **Mr. Kithsiri (`LEC0031`)** | 19 | 9 | 10 |
+| 5 | **Early Childhood Development** | *None assigned / Acting* | *None assigned* | 2 | 2 | 0 |
+| 6 | **Hotel Management** | *None assigned / Acting* | ⭐ **Mr. Tashen (`LEC0108`), Ms.Ishara (`LEC0053`)** | 14 | 8 | 6 |
+| 7 | **Languages** | *None assigned / Acting* | ⭐ **Mr. Chinthaka (`LEC0047`)** | 7 | 3 | 4 |
+| 8 | **Law** | *None assigned / Acting* | ⭐ **Ms. Rashmi (`LEC0042`)** | 7 | 5 | 2 |
+| 9 | **Nursing** | *None assigned / Acting* | *None assigned* | 1 | 1 | 0 |
+| 10 | **Psychology** | *None assigned / Acting* | *None assigned* | 5 | 1 | 4 |
+| 11 | **Unassigned / No Dept** | *None assigned / Acting* | *None assigned* | 1 | 1 | 0 |
+
+---
+
+## 3. Department-Wise Academic Staff Directory
+
+### Department of Biomedical Science
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** **Dr. Dulani (`LEC0028`)**
+  - **🎖️ Course Coordinators:** Dr. Anjali (`LEC0027` - *Lecturer Cum Coordinator*), Ms. Samitha (`LEC0026` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 3 Faculty Members (3 Internal, 0 Visiting) | **Total Monthly Norm:** 176.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0028` | **Dr. Dulani** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email29@bcas.lk` |
+| 2 | `LEC0027` | **Dr. Anjali** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email28@bcas.lk` |
+| 3 | `LEC0026` | **Ms. Samitha** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email27@bcas.lk` |
+
+### Department of Business Management
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** **Dr. Chethana (`LEC0104`)**
+  - **⭐ Deputy HOD:** *None assigned*
+  - **🎖️ Course Coordinators:** Ms. Jadharshani (`LEC0017` - *Senior Lecturer Cum Coordinator*), Mr.Dinesh (`LEC137` - *Lecturer Cum Coordinator*), Ms. Niluni (`LEC0101` - *Lecturer Cum Coordinator*), Ms. Shazna (`LEC0070` - *Lecturer Cum Coordinator*), Ms.Ayesha (`LEC0077` - *Lecturer Cum Coordinator*), Ms.Tharushika (`LEC134` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 17 Faculty Members (7 Internal, 10 Visiting) | **Total Monthly Norm:** 1,232.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0104` | **Dr. Chethana** | 👑 **[HOD]** HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `chathana@bcas.lk` |
+| 2 | `LEC0017` | **Ms. Jadharshani** | 🎖️ Senior Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email18@bcas.lk` |
+| 3 | `LEC137` | **Mr.Dinesh** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email138@gmail.com` |
+| 4 | `LEC0101` | **Ms. Niluni** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `niluni@bcas.lk` |
+| 5 | `LEC0070` | **Ms. Shazna** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email71@gmail.com` |
+| 6 | `LEC0077` | **Ms.Ayesha** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email78@bcas.lk` |
+| 7 | `LEC134` | **Ms.Tharushika** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email136@bcas.lk` |
+| 8 | `LEC0023` | **Mr. Dilan** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email24@bcas.lk` |
+| 9 | `LEC0025` | **Mr. Lasantha** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email26@bcas.lk` |
+| 10 | `LEC142` | **Mr. Sasanka** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email143@bcas.lk` |
+| 11 | `LEC0024` | **Mr. Sudesh** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email25@bcas.lk` |
+| 12 | `LEC0080` | **Mr. Tharaka** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email80@bcas.lk` |
+| 13 | `LEC0083` | **Mr. Tharaka Soysa** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email83@bcas.lk` |
+| 14 | `LEC0082` | **Mr. Vinod** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email82@bcas.lk` |
+| 15 | `LEC0021` | **Mr.Harendra** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email22@bcas.lk` |
+| 16 | `LEC0084` | **Ms. Nipunika** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email84@bcas.lk` |
+| 17 | `LEC0081` | **Prof. Thakshila** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email81@bcas.lk` |
+
+### Department of Computing
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** **Mr. Anis (`LEC0006`)**
+  - **⭐ Deputy HOD:** **Mr. Ravindu (`LEC0002`), Mr. S. Moulana (`LEC0069`)**
+  - **🎖️ Course Coordinators:** Mr. Viraj (`LEC0015` - *Lecturer Cum Coordinator*), Ms. Ayeshwery Samarakoon (`LEC0009` - *Lecturer Cum Coordinator*), Ms. Maleesha (`LEC0013` - *Lecturer Cum Coordinator*), Ms. Menu (`LEC0008` - *Lecturer Cum Coordinator*), Ms. Pramodi Thilakarathne (`LEC0007` - *Assistant Lecturer Cum Coordinator*), Ms. Sandali Bhagya (`LEC0010` - *Assistant Lecturer Cum Coordinator*)
+- **Academic Metrics:** 18 Faculty Members (17 Internal, 1 Visiting) | **Total Monthly Norm:** 1,248.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0006` | **Mr. Anis** | 👑 **[HOD]** HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email5@bcas.lk` |
+| 2 | `LEC0002` | **Mr. Ravindu** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email1@bcas.lk` |
+| 3 | `LEC0069` | **Mr. S. Moulana** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email70@bcas.lk` |
+| 4 | `LEC0015` | **Mr. Viraj** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | **Inactive** | `email16@bcas.lk` |
+| 5 | `LEC0009` | **Ms. Ayeshwery Samarakoon** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email9@bcas.lk` |
+| 6 | `LEC0013` | **Ms. Maleesha** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email14@bcas.lk` |
+| 7 | `LEC0008` | **Ms. Menu** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email8@bcas.lk` |
+| 8 | `LEC0007` | **Ms. Pramodi Thilakarathne** | 🎖️ Assistant Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email7@bcas.lk` |
+| 9 | `LEC0010` | **Ms. Sandali Bhagya** | 🎖️ Assistant Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email10@bcas.lk` |
+| 10 | `LEC0004` | **Mr. Gaveen** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email3@bcas.lk` |
+| 11 | `LEC0003` | **Mr. Ramesh** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email2@bcas.lk` |
+| 12 | `LEC0005` | **Mr. Tharinda Kaushalya** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email4@bcas.lk` |
+| 13 | `LEC0001` | **Mr.Shakir Fariz** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | **Inactive** | `email@bcas.lk` |
+| 14 | `LEC0103` | **Ms. Bhagya** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `bhagya.b@bcas.lk` |
+| 15 | `LEC0012` | **Ms. Nadeesha Hansani** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email13@bcas.lk` |
+| 16 | `LEC0107` | **Ms. Mohana** | 📘 Assistant Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `mohana@bcas.lk` |
+| 17 | `LEC0014` | **Ms.Uvindya** | 📘 Assistant Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email15@bcas.lk` |
+| 18 | `LEC130` | **Mr. Vinod** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email131@bcas.lk` |
+
+### Department of Construction & Built Environment
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** **Mr. Kithsiri (`LEC0031`)**
+  - **🎖️ Course Coordinators:** Ms. Hasara (`LEC0105` - *Lecturer Cum Coordinator*), Ms. Hiruni (`LEC0071` - *Lecturer Cum Coordinator*), Ms. Rushmika Ebenezer (`LEC0032` - *Lecturer Cum Coordinator*), Ms.Shafroon (`LEC133` - *Assistant Lecturer Cum Coordinator*)
+- **Academic Metrics:** 19 Faculty Members (9 Internal, 10 Visiting) | **Total Monthly Norm:** 1,424.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0031` | **Mr. Kithsiri** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email32@bcas.lk` |
+| 2 | `LEC0105` | **Ms. Hasara** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `hasara@bcas.lk` |
+| 3 | `LEC0071` | **Ms. Hiruni** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email72@bcas.lk` |
+| 4 | `LEC0032` | **Ms. Rushmika Ebenezer** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email33@bcas.lk` |
+| 5 | `LEC133` | **Ms.Shafroon** | 🎖️ Assistant Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email135@bcas.lk` |
+| 6 | `LEC0093` | **Mr. Harsha** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email94@bcas.lk` |
+| 7 | `LEC0029` | **Mr. Pramodh** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email30@bcas.lk` |
+| 8 | `LEC0033` | **Mr.Kushan** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email34@bcas.lk` |
+| 9 | `LEC0030` | **Ms.Thilini** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email31@bcas.lk` |
+| 10 | `LEC0041` | **Mr. Chathuranga** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email42@bcas.lk` |
+| 11 | `LEC0040` | **Mr. Hasni** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email41@bcas.lk` |
+| 12 | `LEC139` | **Mr. Kusal** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email140@bcas.lk` |
+| 13 | `LEC0034` | **Mr. Mayuran** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email35@bcas.lk` |
+| 14 | `LEC0039` | **Mr. Tharindu Dilshan** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email40@bcas.lk` |
+| 15 | `LEC0074` | **Ms. Anupama Nipuni** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email74@bcas.lk` |
+| 16 | `LEC0037` | **Ms. Ashcharya** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email38@bcas.lk` |
+| 17 | `LEC0038` | **Ms. Chamini** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email39@bcas.lk` |
+| 18 | `LEC0035` | **Ms. Nipuni** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email36@bcas.lk` |
+| 19 | `LEC0075` | **Ms. Tharangani** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email76@bcas.lk` |
+
+### Department of Early Childhood Development
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** *None assigned*
+  - **🎖️ Course Coordinators:** Ms. Nayomi (`LEC0048` - *Lecturer Cum Coordinator*), Ms. Shani (`LEC0092` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 2 Faculty Members (2 Internal, 0 Visiting) | **Total Monthly Norm:** 128.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0048` | **Ms. Nayomi** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email49@bcas.lk` |
+| 2 | `LEC0092` | **Ms. Shani** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email93@bcas.lk` |
+
+### Department of Hotel Management
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** **Mr. Tashen (`LEC0108`), Ms.Ishara (`LEC0053`)**
+  - **🎖️ Course Coordinators:** Ms. Alokani (`LEC0058` - *Lecturer Cum Coordinator*), Ms. Navodya (`LEC0056` - *Lecturer Cum Coordinator*), Ms. Semini (`LEC0054` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 14 Faculty Members (8 Internal, 6 Visiting) | **Total Monthly Norm:** 1,008.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0108` | **Mr. Tashen** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `tashen@bcas.lk` |
+| 2 | `LEC0053` | **Ms.Ishara** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email54@bcas.lk` |
+| 3 | `LEC0058` | **Ms. Alokani** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email59@bcas.lk` |
+| 4 | `LEC0056` | **Ms. Navodya** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email57@bcas.lk` |
+| 5 | `LEC0054` | **Ms. Semini** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email55@bcas.lk` |
+| 6 | `LEC0063` | **Mr. Randiwela** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email64@bcas.lk` |
+| 7 | `LEC0057` | **Mr. Wenura** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email58@bcas.lk` |
+| 8 | `LEC0055` | **Ms. Mandree** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email56@bcas.lk` |
+| 9 | `LEC0059` | **Chef Nandasri** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email60@bcas.lk` |
+| 10 | `LEC0060` | **Chef Piyadasa** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email61@bcas.lk` |
+| 11 | `LEC0061` | **Chef Randeniya** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email62@bcas.lk` |
+| 12 | `LEC0022` | **Mr. Amesh Neran** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email23@bcas.lk` |
+| 13 | `LEC0064` | **Mr. Sujeewa** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email65@bcas.lk` |
+| 14 | `LEC0062` | **Mr. Thilakasiri** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email63@bcas.lk` |
+
+### Department of Languages
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** **Mr. Chinthaka (`LEC0047`)**
+  - **🎖️ Course Coordinators:** Ms. Disara (`LEC0046` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 7 Faculty Members (3 Internal, 4 Visiting) | **Total Monthly Norm:** 512.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0047` | **Mr. Chinthaka** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email48@bcas.lk` |
+| 2 | `LEC0046` | **Ms. Disara** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email47@bcas.lk` |
+| 3 | `LEC0049` | **Ms. Chanuki Anjana** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `email50@bcas.lk` |
+| 4 | `LEC0050` | **Mr. Akila** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email51@bcas.lk` |
+| 5 | `LEC0051` | **Ms. Navithma** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email52@bcas.lk` |
+| 6 | `LEC0086` | **Ms. Shobica** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email87@bcas.lk` |
+| 7 | `LEC0052` | **Ms. Shobika** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email53@bcas.lk` |
+
+### Department of Law
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** **Ms. Rashmi (`LEC0042`)**
+  - **🎖️ Course Coordinators:** Mr. Pranawan (`LEC0044` - *Lecturer Cum Coordinator*), Ms. Sajini (`LEC0043` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 7 Faculty Members (5 Internal, 2 Visiting) | **Total Monthly Norm:** 496.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0042` | **Ms. Rashmi** | ⭐ **[Deputy HOD]** Deputy HOD | 🏛️ Internal | 48.0 hrs/mo | Active | `email43@bcas.lk` |
+| 2 | `LEC0044` | **Mr. Pranawan** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email45@bcas.lk` |
+| 3 | `LEC0043` | **Ms. Sajini** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email44@bcas.lk` |
+| 4 | `EXM001` | **Examiner 01** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `examiner01@bcas.lk` |
+| 5 | `EXM002` | **Examiner 02** | 📘 Lecturer | 🏛️ Internal | 80.0 hrs/mo | Active | `examiner02@bcas.lk` |
+| 6 | `LEC0045` | **Mr. Melwin** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email46@bcas.lk` |
+| 7 | `LEC0076` | **Ms. Chathurya** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email77@bcas.lk` |
+
+### Department of Nursing
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** *None assigned*
+  - **🎖️ Course Coordinators:** Ms. Chavika (`LEC0068` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 1 Faculty Members (1 Internal, 0 Visiting) | **Total Monthly Norm:** 64.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0068` | **Ms. Chavika** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email69@bcas.lk` |
+
+### Department of Psychology
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** *None assigned*
+  - **🎖️ Course Coordinators:** Ms. Indrachapa (`LEC0065` - *Lecturer Cum Coordinator*)
+- **Academic Metrics:** 5 Faculty Members (1 Internal, 4 Visiting) | **Total Monthly Norm:** 384.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC0065` | **Ms. Indrachapa** | 🎖️ Lecturer Cum Coordinator | 🏛️ Internal | 64.0 hrs/mo | Active | `email66@bcas.lk` |
+| 2 | `LEC140` | **Mr. Sandev** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email141@bcas.lk` |
+| 3 | `LEC0066` | **Ms. Atshya** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | **Inactive** | `email67@bcas.lk` |
+| 4 | `LEC0067` | **Ms. Nethmi** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email68@bcas.lk` |
+| 5 | `LEC141` | **Ms.Radshwary** | ✈️ Lecturer | ✈️ Visiting | 80.0 hrs/mo | Active | `email142@bcas.lk` |
+
+### Unassigned / No Department
+
+- **Departmental Leadership:**
+  - **👑 Head of Department (HOD):** *None assigned / Acting*
+  - **⭐ Deputy HOD:** *None assigned*
+- **Academic Metrics:** 1 Faculty Members (1 Internal, 0 Visiting) | **Total Monthly Norm:** 48.0 hrs
+
+| # | Staff Code | Lecturer Name | Leadership & Designation | Faculty Type | Norm Hours | Status | Email Address |
+| :-: | :--- | :--- | :--- | :-: | :-: | :-: | :--- |
+| 1 | `LEC136` | **Prof. Ruvan** | 🎓 **[Prof]** Professor | 🏛️ Internal | 48.0 hrs/mo | Active | `email137@bcas.lk` |
+
+---
+
+## 4. Classrooms & Lecture Facilities Directory
+
+### 4.1. Categorized Campus Facilities
+
+#### Auditorium & Institutional Facilities (7 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-024` | **AUDITORIUM** | Active |
+| 2 | `CR-034` | **Chairman office (2nd Floor)** | Active |
+| 3 | `CR-030` | **Counseling Room 01 (Online)** | Active |
+| 4 | `CR-031` | **Library** | Active |
+| 5 | `CR-029` | **Main Board Room** | Active |
+| 6 | `CR-028` | **Mini Board Room** | Active |
+| 7 | `CR-022` | **Next to Prof. Cabin** | Active |
+
+#### Civil / Engineering Labs (2 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-001` | **CIVIL LAB  BASE 001 [20]** | Active |
+| 2 | `CR-002` | **CIVIL LAB BASE 002 [20]** | Active |
+
+#### Digital & Distance Learning Halls (4 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-037` | **DL  203 (TR)** | Active |
+| 2 | `CR-036` | **DL  next to mini board rm(202)** | Active |
+| 3 | `CR-035` | **DL 204 (Study abroad)** | Active |
+| 4 | `CR-038` | **DL 205** | Active |
+
+#### East Wing Lecture Halls (5 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-039` | **EAST 301** | Active |
+| 2 | `CR-018` | **EAST 304 (64)** | Active |
+| 3 | `CR-019` | **EAST 305(30)** | Active |
+| 4 | `CR-020` | **EAST 306(30)** | Active |
+| 5 | `CR-021` | **EAST 307(42)** | Active |
+
+#### Specialized Practical Labs & Kitchen (4 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-016` | **EAST 302(20) Bio medical Lab** | Active |
+| 2 | `CR-017` | **EAST 303 Nursing Lab** | Active |
+| 3 | `CR-032` | **Hotel Management room** | Active |
+| 4 | `CR-023` | **KITCHEN** | Active |
+
+#### Technology & Computing Labs (4 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-012` | **TECH 001  (30)** | Active |
+| 2 | `CR-013` | **TECH 002 (30)** | Active |
+| 3 | `CR-014` | **TECH 003 (54)** | Active |
+| 4 | `CR-015` | **TECH 004 (40)** | Active |
+
+#### Virtual / Remote Work (1 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-033` | **WFH** | Active |
+
+#### West Wing Lecture Halls (12 Facilities)
+
+| # | Facility ID | Facility / Room Name | Status |
+| :-: | :---: | :--- | :---: |
+| 1 | `CR-008` | **WEST 002 (40)** | Active |
+| 2 | `CR-009` | **WEST 003 (19)** | Active |
+| 3 | `CR-010` | **WEST 004 (27)** | Active |
+| 4 | `CR-011` | **WEST 005 (40)** | Active |
+| 5 | `CR-003` | **WEST 101 (15)** | Active |
+| 6 | `CR-004` | **WEST 102 (40)** | Active |
+| 7 | `CR-005` | **WEST 103 (9)** | Active |
+| 8 | `CR-006` | **WEST 104 (21)** | Active |
+| 9 | `CR-007` | **WEST 105 (39)** | Active |
+| 10 | `CR-025` | **WEST 106 (New)** | Active |
+| 11 | `CR-026` | **WEST 107 (New)** | Active |
+| 12 | `CR-027` | **WEST 108 (New)** | Active |
+
+### 4.2. Complete Master Classrooms Table
+
+| # | Facility ID | Classroom / Lecture Hall Name | Facility Category | Operational Status |
+| :-: | :---: | :--- | :--- | :---: |
+| 1 | `CR-024` | **AUDITORIUM** | Auditorium & Institutional Facilities | Active |
+| 2 | `CR-034` | **Chairman office (2nd Floor)** | Auditorium & Institutional Facilities | Active |
+| 3 | `CR-001` | **CIVIL LAB  BASE 001 [20]** | Civil / Engineering Labs | Active |
+| 4 | `CR-002` | **CIVIL LAB BASE 002 [20]** | Civil / Engineering Labs | Active |
+| 5 | `CR-030` | **Counseling Room 01 (Online)** | Auditorium & Institutional Facilities | Active |
+| 6 | `CR-037` | **DL  203 (TR)** | Digital & Distance Learning Halls | Active |
+| 7 | `CR-036` | **DL  next to mini board rm(202)** | Digital & Distance Learning Halls | Active |
+| 8 | `CR-035` | **DL 204 (Study abroad)** | Digital & Distance Learning Halls | Active |
+| 9 | `CR-038` | **DL 205** | Digital & Distance Learning Halls | Active |
+| 10 | `CR-039` | **EAST 301** | East Wing Lecture Halls | Active |
+| 11 | `CR-016` | **EAST 302(20) Bio medical Lab** | Specialized Practical Labs & Kitchen | Active |
+| 12 | `CR-017` | **EAST 303 Nursing Lab** | Specialized Practical Labs & Kitchen | Active |
+| 13 | `CR-018` | **EAST 304 (64)** | East Wing Lecture Halls | Active |
+| 14 | `CR-019` | **EAST 305(30)** | East Wing Lecture Halls | Active |
+| 15 | `CR-020` | **EAST 306(30)** | East Wing Lecture Halls | Active |
+| 16 | `CR-021` | **EAST 307(42)** | East Wing Lecture Halls | Active |
+| 17 | `CR-032` | **Hotel Management room** | Specialized Practical Labs & Kitchen | Active |
+| 18 | `CR-023` | **KITCHEN** | Specialized Practical Labs & Kitchen | Active |
+| 19 | `CR-031` | **Library** | Auditorium & Institutional Facilities | Active |
+| 20 | `CR-029` | **Main Board Room** | Auditorium & Institutional Facilities | Active |
+| 21 | `CR-028` | **Mini Board Room** | Auditorium & Institutional Facilities | Active |
+| 22 | `CR-022` | **Next to Prof. Cabin** | Auditorium & Institutional Facilities | Active |
+| 23 | `CR-012` | **TECH 001  (30)** | Technology & Computing Labs | Active |
+| 24 | `CR-013` | **TECH 002 (30)** | Technology & Computing Labs | Active |
+| 25 | `CR-014` | **TECH 003 (54)** | Technology & Computing Labs | Active |
+| 26 | `CR-015` | **TECH 004 (40)** | Technology & Computing Labs | Active |
+| 27 | `CR-008` | **WEST 002 (40)** | West Wing Lecture Halls | Active |
+| 28 | `CR-009` | **WEST 003 (19)** | West Wing Lecture Halls | Active |
+| 29 | `CR-010` | **WEST 004 (27)** | West Wing Lecture Halls | Active |
+| 30 | `CR-011` | **WEST 005 (40)** | West Wing Lecture Halls | Active |
+| 31 | `CR-003` | **WEST 101 (15)** | West Wing Lecture Halls | Active |
+| 32 | `CR-004` | **WEST 102 (40)** | West Wing Lecture Halls | Active |
+| 33 | `CR-005` | **WEST 103 (9)** | West Wing Lecture Halls | Active |
+| 34 | `CR-006` | **WEST 104 (21)** | West Wing Lecture Halls | Active |
+| 35 | `CR-007` | **WEST 105 (39)** | West Wing Lecture Halls | Active |
+| 36 | `CR-025` | **WEST 106 (New)** | West Wing Lecture Halls | Active |
+| 37 | `CR-026` | **WEST 107 (New)** | West Wing Lecture Halls | Active |
+| 38 | `CR-027` | **WEST 108 (New)** | West Wing Lecture Halls | Active |
+| 39 | `CR-033` | **WFH** | Virtual / Remote Work | Active |
+
+---
+
+*BCAS Campus Resource Utilization System — Academic Directory generated automatically.*

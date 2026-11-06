@@ -1,0 +1,290 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Administrative users with superadmin or admin privileges",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string", "enum": ["superadmin", "admin"] },
+        "displayName": { "type": "string" },
+        "active": { "type": "boolean" },
+        "mustChangePassword": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["username", "email", "role", "active"]
+    },
+    "Department": {
+      "title": "Department",
+      "description": "BCAS Colombo academic departments",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "code": { "type": "string" },
+        "description": { "type": "string" },
+        "headOfDepartment": { "type": "string" },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["name", "code", "active"]
+    },
+    "Lecturer": {
+      "title": "Lecturer",
+      "description": "Academic staff members with staff codes and department assignments",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "staffCode": { "type": "string" },
+        "name": { "type": "string" },
+        "department": { "type": "string" },
+        "designation": { "type": "string" },
+        "facultyType": { "type": "string", "enum": ["Permanent", "Visiting", "Contract"] },
+        "status": { "type": "string", "enum": ["Active", "Inactive"] },
+        "email": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["staffCode", "name", "department", "designation", "facultyType", "status"]
+    },
+    "Classroom": {
+      "title": "Classroom",
+      "description": "Lecture halls, computer labs, and specialized facilities",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "facilityId": { "type": "string" },
+        "name": { "type": "string" },
+        "category": { "type": "string", "enum": ["Lecture Hall", "Computer Lab", "Science Lab", "Specialized Facility", "Auditorium"] },
+        "capacity": { "type": "number" },
+        "operationalStatus": { "type": "string", "enum": ["Operational", "Maintenance", "Inactive"] },
+        "floor": { "type": "string" },
+        "wing": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["facilityId", "name", "category", "operationalStatus"]
+    },
+    "Program": {
+      "title": "Program",
+      "description": "Degree and higher diploma academic programs",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "code": { "type": "string" },
+        "departmentId": { "type": "string" },
+        "departmentName": { "type": "string" },
+        "duration": { "type": "string" },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["name", "code", "departmentName", "active"]
+    },
+    "Batch": {
+      "title": "Batch",
+      "description": "Student intake batches",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "programId": { "type": "string" },
+        "programName": { "type": "string" },
+        "departmentId": { "type": "string" },
+        "departmentName": { "type": "string" },
+        "academicYear": { "type": "string" },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["name", "programName", "active"]
+    },
+    "Module": {
+      "title": "Module",
+      "description": "Curriculum course modules",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "code": { "type": "string" },
+        "name": { "type": "string" },
+        "programId": { "type": "string" },
+        "departmentId": { "type": "string" },
+        "credits": { "type": "number" },
+        "semester": { "type": "string" },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["code", "name", "active"]
+    },
+    "TimeSlot": {
+      "title": "TimeSlot",
+      "description": "Configurable academic weekday and weekend time slots",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "slotNumber": { "type": "number" },
+        "label": { "type": "string" },
+        "startTime": { "type": "string" },
+        "endTime": { "type": "string" },
+        "type": { "type": "string", "enum": ["weekday", "weekend"] },
+        "isBreak": { "type": "boolean" },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["slotNumber", "label", "startTime", "endTime", "type", "active"]
+    },
+    "AcademicWeek": {
+      "title": "AcademicWeek",
+      "description": "Academic week records with start and end dates",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "weekNumber": { "type": "number" },
+        "label": { "type": "string" },
+        "startDate": { "type": "string" },
+        "endDate": { "type": "string" },
+        "academicYear": { "type": "string" },
+        "semester": { "type": "string" },
+        "isCurrent": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["weekNumber", "label", "startDate", "endDate"]
+    },
+    "Schedule": {
+      "title": "Schedule",
+      "description": "Timetable lecture allocations linking classroom, timeslot, module, lecturer, and batch",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "scheduleId": { "type": "string" },
+        "academicWeekId": { "type": "string" },
+        "date": { "type": "string" },
+        "day": { "type": "string", "enum": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] },
+        "timeSlotId": { "type": "string" },
+        "startTime": { "type": "string" },
+        "endTime": { "type": "string" },
+        "programId": { "type": "string" },
+        "programName": { "type": "string" },
+        "departmentId": { "type": "string" },
+        "departmentName": { "type": "string" },
+        "batchId": { "type": "string" },
+        "batchName": { "type": "string" },
+        "moduleId": { "type": "string" },
+        "moduleName": { "type": "string" },
+        "lecturerId": { "type": "string" },
+        "lecturerName": { "type": "string" },
+        "classroomId": { "type": "string" },
+        "classroomName": { "type": "string" },
+        "notes": { "type": "string" },
+        "createdBy": { "type": "string" },
+        "updatedBy": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": [
+        "academicWeekId",
+        "date",
+        "day",
+        "timeSlotId",
+        "startTime",
+        "endTime",
+        "programName",
+        "departmentName",
+        "batchName",
+        "moduleName",
+        "lecturerName",
+        "classroomName"
+      ]
+    },
+    "ActivityLog": {
+      "title": "ActivityLog",
+      "description": "Administrative actions audit log",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "username": { "type": "string" },
+        "userRole": { "type": "string" },
+        "action": { "type": "string" },
+        "entityType": { "type": "string" },
+        "entityId": { "type": "string" },
+        "details": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["username", "action", "entityType", "timestamp"]
+    },
+    "SystemSetting": {
+      "title": "SystemSetting",
+      "description": "Campus-wide settings and configuration",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "campusName": { "type": "string" },
+        "timezone": { "type": "string" },
+        "weekendSundayEnabled": { "type": "boolean" },
+        "currentAcademicWeekId": { "type": "string" },
+        "notificationsEnabled": { "type": "boolean" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["campusName", "timezone"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Admin accounts with role-based access control"
+    },
+    "/departments/{departmentId}": {
+      "schema": "Department",
+      "description": "Academic department entities"
+    },
+    "/lecturers/{lecturerId}": {
+      "schema": "Lecturer",
+      "description": "Academic staff members with codes and departments"
+    },
+    "/classrooms/{classroomId}": {
+      "schema": "Classroom",
+      "description": "Classrooms, lecture theatres, and lab facilities"
+    },
+    "/programs/{programId}": {
+      "schema": "Program",
+      "description": "Academic degree and diploma programs"
+    },
+    "/batches/{batchId}": {
+      "schema": "Batch",
+      "description": "Student intake batches"
+    },
+    "/modules/{moduleId}": {
+      "schema": "Module",
+      "description": "Curriculum course modules"
+    },
+    "/timeSlots/{timeSlotId}": {
+      "schema": "TimeSlot",
+      "description": "Weekday and weekend time slots"
+    },
+    "/academicWeeks/{academicWeekId}": {
+      "schema": "AcademicWeek",
+      "description": "Weekly calendar slots"
+    },
+    "/schedules/{scheduleId}": {
+      "schema": "Schedule",
+      "description": "Lecture schedule bookings across days, rooms, and slots"
+    },
+    "/activityLogs/{logId}": {
+      "schema": "ActivityLog",
+      "description": "Administrative audit log trail"
+    },
+    "/systemSettings/{settingId}": {
+      "schema": "SystemSetting",
+      "description": "Institutional configuration parameters"
+    }
+  }
+}

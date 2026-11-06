@@ -1,0 +1,6 @@
+{
+  "name": "BCAS Smart Academic Timetable & Lecture Hall Tracker",
+  "description": "Smart academic timetable scheduling and real-time lecture hall tracking system for BCAS Colombo City Campus, Sri Lanka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
